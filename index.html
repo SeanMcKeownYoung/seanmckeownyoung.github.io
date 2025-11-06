@@ -24,72 +24,170 @@
         
 		/* Outlines the grids, remove when sending
 		table td { border: 1px solid rgb(0, 217, 255); }*/
+        h1 {
+            font-family: 'Playfair Display', Georgia, serif, roman; 
+            font-weight: 900; 
+            font-style: normal; 
+            font-size: 50px; 
+            color: #fff; 
+            letter-spacing: -0.25px; 
+            -webkit-font-smoothing: antialiased; 
+            font-kerning: normal; 
+            text-wrap: balance; 
+        }
+
+        h2 {
+            font-family: 'Playfair Display', Georgia, serif, roman; 
+            font-weight: 900;  
+            font-style: normal; 
+            font-size: 20px; 
+            color: #fff; 
+            letter-spacing: -0.25px; 
+            -webkit-font-smoothing: antialiased; 
+            font-kerning: normal; 
+            text-wrap: balance; 
+        }
             a:link, a:visited {
-            background-color: #f44336;
-            color: white;
-            padding: 14px 25px;
-            margin: 20px 0px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            display:block; 
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-            text-decoration:none; text-align:center; 
-            font-size:12px;  
-            line-height:22px; 
-            font-weight: bold; 
-            text-transform: uppercase;  
-            letter-spacing: 2px;
+                background-color: #f44336;
+                color: white;
+                padding: 14px 25px;
+                margin: 20px 0px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                display:block; 
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+                text-decoration:none; text-align:center; 
+                font-size:12px;  
+                line-height:22px; 
+                font-weight: bold; 
+                text-transform: uppercase;  
+                letter-spacing: 2px;
             }
+
             a:hover, a:active {
-            background-color: red;
+                background-color: red;
             }
+            .label {
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+                font-weight: 900; 
+                font-size: 12px; 
+                color: #fff; 
+                text-transform: uppercase;  
+                letter-spacing: 2px;
+                padding-top: 20px;
+            }
+            .tagLine {
+                color: #f44336;
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+                text-transform: uppercase;  
+                letter-spacing: 2px;
+                font-size: 12px;
+                padding: 40px 0px 20px 0px;
+            }
+            .tagBottom {
+                bottom: 0;
+                width: 100%;
+            }
+            .linkBox {
+                width: 30%;
+                min-width: 300px;
+            }
+            .fa  {
+                color: #f44336;
+                font-size: 100px;
+            }
+            .headBox {
+                width: 100%;
+
+            }
+body {
+    background-color: #121212;
+    padding-top: 2%;
+}
 
 		</style>		
 	</head>
-    <body style="margin:0; padding:0; mso-line-height-rule: exactly; background-color: transparent !important; width: 100%;">
+
+
 
 <center>
 
 
 
 <!-- START FULL WIDTH MAIN CONTENT  -->
-<section class="body">
-    <table class="darkBack" role="presentation" width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#121212;" bgcolor="#121212">
-        <!--SPACER--><tr><td height="200" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-        <tr>
-            <td align="center" valign="top">
+<body>
 
                                 <!-- START HEADLINE -->
-                                <table class="mobile-280" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0" style="border: 0;">
+                                <table class="headBox">
                                     <tr>
                                         <td align="center" valign="top">
-                                            <h1 class="h1-text-resize" style="font-family: 'Playfair Display', Georgia, serif, roman; mso-ascii-font-family:'Playfair Display', Georgia, serif, roman; mso-ansi-font-weight: 900; font-weight: 900; font-optical-sizing: none;  font-style: normal; display: inline-block; font-size: 50px; line-height: 50px; color: #fff; letter-spacing: -0.25px; -webkit-font-smoothing: antialiased; font-kerning: normal; text-wrap: balance; ">
-                                                Email Previewer
-                                            </h1>
+                                            <i class="fa fa-envelope"></i>
+                                            <h1>Email Previewer</h1>
+                                            <h2>Click the link to preview the email</h2>
                                         </td>
                                     </tr>
                                 </table>
                                 <!-- END HEADLINE -->
 
-                                <!-- START INTRO -->
-                                <table role="presentation" width="30%" cellpadding="0" cellspacing="0" border="0">
+                                <!-- START LINKS -->
+                                <table class="linkBox">
                                     <!--SPACER--><tr><td height="24" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                     <tr>
                                         <td align="center" valign="top">
-                                            <p class="intro-text-resize" style="font-family: 'Playfair Display', Georgia, serif; font-weight: 400; font-size: 20px; line-height: 30px; color: #fff; text-wrap: balance;">Click the links below to preview email.</p>
-                                            <a href="testfile.html" target="_blank">Email preview 01</a>
-                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/ALhuntsville.html" target="_blank">Huntsville</a>
+                                            <p class="label">Alabama.</p>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/ALhuntsville.html" target="_blank">AL Birmingham</a>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/ALhuntsville.html" target="_blank">AL Huntsville</a>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/ALmobile.html" target="_blank">AL Mobile</a>
+
+                                            <p class="label">Massachusetts.</p>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/MAspringfield.html" target="_blank">MA Springfield</a>
+
+                                            <p class="label">Michigan.</p>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/MIannarbor.html" target="_blank">MI Ann Arbor</a>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/MIbaycity.html" target="_blank">MI Bay City</a>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/MIflint.html" target="_blank">MI Flint</a>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/MIgrandrapids.html" target="_blank">MI Grand Rapids</a>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/MIjackson.html" target="_blank">MI Jackson</a>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/MIkalamazoo.html" target="_blank">MI Kalamazoo</a>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/MImuskegon.html" target="_blank">MI Muskegon</a>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/MIsaginaw.html" target="_blank">MI Saginaw</a>
+
+
+                                            <p class="label">New Jersey.</p>    
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/NJeaston.html" target="_blank">NJ Easton</a>                                       
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/NJnewark.html" target="_blank">NJ Newark</a>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/NJtrenton.html" target="_blank">NJ Trenton</a>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/NJsouthjersey.html" target="_blank">NJ South Jersey</a>
+
+
+                                            <p class="label">New York.</p>                                           
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/NYstatenisland.html" target="_blank">NY Staten Island</a>
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/NYsyracuse.html" target="_blank">NY Syracuse</a>
+
+                                            <p class="label">Ohio.</p>                                              
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/OHcleveland.html" target="_blank">OH Cleveland</a>
+
+                                            <p class="label">Oregon.</p>                                              
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/ORportland.html" target="_blank">OR Portland</a>
+
+                                            <p class="label">Pennsylvania.<p>                                              
+                                            <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/FamilyShare/blob/main/PAharrisburg.html" target="_blank">PA Harrisburg</a>
+
+                                </table>
+                                <!-- END LINKS -->
+
+                                <!-- START TAGLINE -->
+                                <table class="tagBottom" width="400">
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <p class="tagLine">Sean McKeown-Young, Advance Local</p>
                                         </td>
                                     </tr>
-                                    <!--SPACER--><tr><td height="24" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                 </table>
-                                <!-- END INTRO -->
+                                <!-- END TAGLINE -->
 
-            </td>
-        </tr>
-    </table>
-</section>
+
 <!-- END FULL WIDTH ALL CONTENT -->
 
 
