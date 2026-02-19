@@ -152,3 +152,58 @@ body {
 		opacity: 1;
 	}
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .resumeItem  {
+  padding: 0 !important;
+  margin-left: 10px  !important;
+  font-weight: 200 !important;
+  font-size: 14px !important;
+  color: #302d2d !important;
+  text-decoration: none !important;
+  display: block;
+}
+
+.dropdown-menu:hover .resumeItem {
+    color: #302d2d !important;
+    background-color: transparent !important;
+    transition:  0.1s linear 0s;
+}
+:hover.resumeItem {color: #302d2d; }
+:hover.resumeHead .resumeItem {
+    color: #302d2d !important; transition:  0.1s linear 0s;
+}
+
+}
+
+.dropdown-menu:hover .resumeItem {
+    color: transparent !important;
+    background-color: transparent !important;
+    transition:  0.1s linear 0s;
+}
+
+:hover.resumeHead .resumeItem {
+    color: #302d2d !important; transition:  0.1s linear 0s;
+}
+
+
+:hover.resumeItem {font-weight: 600 !important; }
+      .resumeItem {
+        list-style-type: none;
+        margin-left: 10px !important;
+      }
+      .resumeList {
+        list-style-type: none !important; padding: 0% !important;
+      }
+
+.resumeItem  {
+  padding: 0 !important;
+  margin-left: 10px  !important;
+  font-weight: 200 !important;
+  font-size: 14px !important;
+  color: transparent !important;
+  text-decoration: none !important;
+  display: block;
+}
