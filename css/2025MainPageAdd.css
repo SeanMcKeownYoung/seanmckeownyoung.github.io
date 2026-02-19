@@ -102,15 +102,15 @@ body {
 }
 
 .fade1 {
-    animation: fade2 4.5s ease 0s 1 normal forwards;
+    animation: fade2 2.5s ease 0s 1 normal forwards;
 }
 
 .fade2 {
-    animation: fade2 5s ease 0s 1 normal forwards;
+    animation: fade2 3s ease 0s 1 normal forwards;
 }
 
 .fade3 {
-    animation: fade2 6s ease 0s 1 normal forwards;
+    animation: fade2 1s ease 0s 1 normal forwards;
 }
 
 @keyframes fade2 {

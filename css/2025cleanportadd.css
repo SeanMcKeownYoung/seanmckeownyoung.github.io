@@ -1,0 +1,77 @@
+/* ADDITIONAL CSS FOR PORTFOLIO SCROLL*/	
+
+.cardBox {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 70px;
+}
+
+.modal-body a {
+  border-radius: 0 !important;
+  border-width: 2px !important;
+  border-color: #302d2d !important;
+  color: #302d2d !important;
+  font-family: "neue-haas-grotesk-display", sans-serif !important;
+  font-weight: 400 !important;
+  width: 60% !important;
+  text-align: left !important;
+}
+
+.modal-body a:hover {
+  background-color: #302d2d !important;
+  border-color: #302d2d !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+
+/* Portfolio start */
+.scrolling-wrapper{
+overflow-x: auto;
+}
+
+/* Portfolio start */
+.scrolling-wrapper{
+    overflow-x: scroll !important;
+    scrollbar-color: #29bbff !important;
+}
+
+.cardItem {
+  height: 40vh;
+}
+
+.modal-body {
+  text-align: left !important;
+    font-family: "neue-haas-grotesk-display", sans-serif !important;
+}
+
+.modal-body p {
+  font-weight: 500 !important;
+  font-size: 1em !important;
+  width: 80% !important;
+}
+
+.modal-body h2 {
+  font-weight: 600 !important;
+  font-size: 2em !important;
+}
+
+.modal-title {
+    font-family: "neue-haas-grotesk-display", sans-serif !important;
+}
+
+/* Examples */
+.scrollspy-example {
+    height: 200px;
+  }
+  
+  [id="modal"] .bd-example .btn,
+  [id="buttons"] .bd-example .btn,
+  [id="tooltips"] .bd-example .btn,
+  [id="popovers"] .bd-example .btn,
+  [id="dropdowns"] .bd-example .btn-group,
+  [id="dropdowns"] .bd-example .dropdown,
+  [id="dropdowns"] .bd-example .dropup,
+  [id="dropdowns"] .bd-example .dropend,
+  [id="dropdowns"] .bd-example .dropstart {
+    margin: 0 1rem 1rem 0;
+  }

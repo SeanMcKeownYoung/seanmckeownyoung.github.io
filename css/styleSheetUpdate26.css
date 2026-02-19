@@ -1,0 +1,120 @@
+
+/* STRUCTURE */
+
+
+
+.fullBody {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 10fr 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+width: 100vw;
+height: 100vh;
+background-color: aqua;
+}
+
+.fullMain {
+    background-color: #ffcb05;
+    width: 100vw;
+}
+
+.inMain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr 5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+.inMainNav {
+    background-color: #73AD21;
+}
+.inMainIntro {
+    background-color: #ad4b21ff;
+}
+.inMainPic {
+    background-color: #6921adff;
+}
+
+.fullFooter {
+    background-color: #e7e7e7;
+}
+
+.inFooter {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+
+.inFooterText {
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.footerHead {
+font-family: "neue-haas-grotesk-display", sans-serif ; 
+font-weight: 900; 
+font-size: 1em; 
+display: inline-block; 
+padding-right: 5px;
+}
+
+.footerText {
+font-family: "neue-haas-grotesk-display", sans-serif ; 
+font-weight: 300; 
+font-size: 1em; 
+display: inline-block;
+}
+
+.footerIcons {
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+.inMain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr 5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100;
+    height: 100%;
+    margin: auto;
+}
+
+.inFooter {
+    display: grid;
+    grid-template-columns: 0fr;
+    grid-template-rows: 0fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100vw;
+    height: 100%;
+    margin: auto;
+}
+.inFooterText {
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    width: 100vw;
+}
+.footerText {
+    display: block;
+}
+.footerIcons {
+  justify-content: center;
+  float: center;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+}

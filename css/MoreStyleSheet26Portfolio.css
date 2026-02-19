@@ -1,0 +1,717 @@
+
+/*
+* Changes dropdown-menu to no margin
+*/
+
+.modal-body a {
+  border-radius: 0 !important;
+  border-width: 2px !important;
+  border-color: #302d2d !important;
+  color: #302d2d !important;
+  font-family: "neue-haas-grotesk-display", sans-serif !important;
+  font-weight: 400 !important;
+  width: 60% !important;
+  text-align: left !important;
+}
+
+.modal-body a:hover {
+  background-color: #302d2d !important;
+  border-color: #302d2d !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+
+
+
+.sBttn {
+  border-radius: 0 !important;
+  border-width: 2px !important;
+  border-color: #302d2d !important;
+  color: #302d2d !important;
+}
+
+.containerButtons:hover .sBttn {
+  background-color: #ffcb05 !important;
+  border-color:#fff !important;
+  color: #fff !important;
+}
+.containerButtons .sBttn:hover {
+  background-color: #302d2d !important;
+  border-color: #302d2d !important;
+  color: #ffcb05 !important;
+}
+
+.footerTxt {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #9f9f9f;
+}
+
+.jumbotron {
+  background-image: url("assets/coverShot.png") !important;
+  background-color:#302d2d
+}
+
+.whiteTxt {
+  color: #302d2d;
+}
+
+
+
+.footerLeft {
+text-align: left;
+color: #302d2d;
+bottom: 0;
+position: absolute;
+margin-bottom: 10px;
+}
+
+.main {
+  margin-bottom: 50vh;
+  max-height: 150px;
+}
+
+
+.mainBlock {
+
+}
+
+@media only screen and (max-width: 767px) {
+.navContainer {
+margin-bottom: 200px !important;
+margin-top: 25px !important;
+}
+
+
+.mainBlock {
+
+}
+}
+
+
+
+
+/*
+* Globals
+*/
+
+
+/* Custom default button */
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+color: #333;
+text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+* Base structure
+*/
+
+
+
+.cover-container {
+max-width: 100vw;
+background-color: #ffcb05;
+}
+
+
+
+
+.portBox {
+  background-color: #ffcb05;
+}
+
+/*
+* Header
+*/
+
+
+.nav-masthead {
+font-weight: 600;
+font-size: 1em;
+}
+
+/*
+* Nav Toggle Stuff
+*/
+.nav-masthead .activeHome {
+  background-color: #302d2d !important;
+  margin: -50px 0px 0px 0px !important;
+  padding: 50px 20px 0px 20px !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  font-family: "neue-haas-grotesk-display", sans-serif !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    letter-spacing: 0.1px !important;
+        text-rendering: optimizeLegibility !important;
+}
+
+.nav-masthead .activeHome:hover {
+  background-color: #000000 !important;
+  margin: -50px 0px 0px 0px !important;
+  padding: 50px 20px 0px 20px !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  font-family: "neue-haas-grotesk-display", sans-serif !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    letter-spacing: 0.1px !important;
+        text-rendering: optimizeLegibility !important;
+}
+
+.nav-masthead .nav-link {
+  background-color: transparent !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  padding-bottom: 10px !important;
+    color: #302d2d !important;
+}
+.nav-masthead .nav-link .Txt {
+  text-decoration: none !important;
+  padding-bottom: 0px !important;
+    font-family: "neue-haas-grotesk-display", sans-serif !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    letter-spacing: 0.1px !important;
+        text-rendering: optimizeLegibility !important;
+}
+
+.nav-masthead .dashBox {
+    width: 120px !important;
+    height: 20px !important;
+    background-color: transparent !important;
+}
+
+.nav-masthead .dashBox img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #302d2d !important;
+}
+
+.nav-masthead .bttnGroup:hover .dashBox {
+    width: 120px !important;
+    height: 20px !important;
+    background-color: #302d2d !important;
+}
+
+.nav-masthead .bttnGroup:hover .dashBox img {
+    display: none !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: transparent !important;
+}
+
+.nav-masthead:hover .dashBox {
+    width: 120px !important;
+    height: 20px !important;
+    background-color: transparent !important;
+}
+
+.nav-masthead:hover .dashBox img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #fff !important;
+}
+
+.nav-masthead:hover .nav-link {
+  background-color: transparent !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  padding-bottom: 10px !important;
+    color: #fff !important;
+}
+
+.nav-masthead .bttnGroup:hover .nav-link {
+  background-color: transparent !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  padding-bottom: 10px !important;
+    color: #302d2d !important;
+    font-weight: 900 !important;
+}
+.nav-masthead .bttnGroup:hover .nav-link .Txt {
+    font-weight: 600 !important;
+}
+
+
+.dropBox {
+margin: 0px 10px 0px 10px !important;
+width: 120px !important;
+}
+
+
+/*
+* End Nav Toggle Stuff
+*/
+
+
+.headLabel {
+color: #fff;
+  font-weight: 100;
+  font-size: 2em;
+}
+
+.headLabel:hover {
+color: #fff;
+}
+
+.btn-group {
+padding: 0 !important;
+margin: 0 !important;
+}
+
+.dropdown-menu {
+border: 0px  !important;
+border-radius: 0% !important;
+background-color: transparent !important;
+}
+
+.dropHome {
+  font-size: 14px !important;
+  line-height: 1.25 !important;
+}
+
+
+.dropdown-menu .dropdown-item {
+padding: 0px !important;
+margin: 0px 0px 0px 0px !important;
+font-weight: 200 !important;
+color: #302d2d;
+
+}
+
+.dropdown-menu:hover .dropdown-item {
+  color: #302d2d !important;
+  background-color: transparent !important;
+}
+.dropdown-menu .dropdown-item:hover {
+font-weight: 600 !important;
+color: #302d2d !important;
+background-color: transparent !important;
+}
+
+.dropdown:hover .contactActive {
+color: #302d2d;
+border-bottom-color: #302d2d;
+border-bottom: .25rem solid;
+}
+
+
+.dropdown-menu {
+  border: 0px  !important;
+  padding: 0px 0px 0px 0px !important;
+  margin-top: 30px !important;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 0 !important;
+  margin: 0px 0px 0px 0px !important;
+  font-weight: 200 !important;
+  font-size: 14px;
+  color: #302d2d;
+}
+
+.dropdown-menu:hover .dropdown-item {
+    color: #302d2d !important;
+    background-color: transparent !important;
+}
+.dropdown-menu .dropdown-item:hover {
+  font-weight: 600 !important;
+  color: #302d2d !important;
+  background-color: transparent !important;
+}
+
+
+.dropdown:hover .contactActive {
+  color: #302d2d;
+  border-radius: 0% !important;
+  border: 0px  !important;
+}
+.navbar {
+  margin-left: 40px !important;
+  margin-right: 40px !important;
+}
+
+.main {
+  margin-left: 40px !important;
+  margin-right: 40px !important;
+}
+
+.collapser {
+padding-top: 0 !important;
+margin-top: 0 !important;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+.pHome {
+  font-size: 14px !important;
+  line-height: 1.7;
+}
+}
+.pHome {
+text-wrap: balance !important;
+}
+
+label {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 500;
+  color: #302d2d;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+
+
+.myButton {
+box-shadow:inset 0px -3px 7px 0px #302d2d;
+background:linear-gradient(to bottom, #2dabf9 5%, #302d2d 100%);
+background-color:#2dabf9;
+display:inline-block;
+cursor:pointer;
+color:#302d2d;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+font-size:18px;
+padding:9px 40px 9px 19px;
+text-decoration:none;
+  margin-top: 20px;
+}
+.myButton:hover {
+background:linear-gradient(to bottom, #302d2d 5%, #2dabf9 100%);
+background-color:#302d2d;
+  color:#302d2d;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  text-decoration:none;
+}
+.myButton:active {
+position:relative;
+top:1px;
+}
+.myButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.myButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.myButton:hover span {
+  padding-right: 25px;
+}
+
+.myButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+.lists {
+  text-align: left;
+  display: inline-block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0px;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.lists h3 {
+  font-size: 1.5em;
+  margin-left: 1rem;
+}
+
+.subList {
+  font-size: 14px !important;
+  font-weight: 200;
+  margin: 0px 0px 5px 23px !important;
+}
+
+.subListAwards {
+font-size: 14px !important;
+font-weight: 200;
+display: block !important;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+margin-left: 23px !important;
+}
+.subListSkills {
+font-size: 14px !important;
+font-weight: 200;
+display: inline-block !important;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+margin-left: 5px !important;
+}
+
+.center {
+text-align: center;
+border: 3px solid green;
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+}
+
+.iconOgraphs {
+fill: #302d2d;
+transition: all 0.3s ease-out;
+}
+
+.iconOgraphs:hover {
+fill: #302d2d;
+transition: all 0.3s ease-out;
+}
+
+.iconOtoggle {
+  fill: #302d2d;
+  transition: all 0.3s ease-out;
+}
+
+.iconOtoggle:hover {
+  fill: #302d2d;
+  transition: all 0.3s ease-out;
+}
+
+@media only screen and (max-width: 600px) {
+.iconOgraphs {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.iconOgraphs:hover {
+  fill: #302d2d;
+  transition: all 0.3s ease-out;
+}
+}
+
+
+.footerHead {
+font-family: "neue-haas-grotesk-display", sans-serif !important; 
+color: #302d2d;
+font-weight: 700; 
+font-size: 1em; 
+display: inline-block; 
+padding-right: 5px;
+}
+
+.footerText {
+font-family: "neue-haas-grotesk-display", sans-serif !important; 
+color: #302d2d;
+font-weight: 200; 
+font-size: 1em; 
+display: inline-block;
+  padding-right: 10px !important;
+}
+
+.footerIcons {
+justify-content: center;
+float: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+.footerHead {
+  font-weight: 700; 
+  font-size: 20px; 
+  display: block; 
+  padding: 0 !important;
+  margin: 0 !important;
+
+}
+
+.footerText {
+  font-weight: 200; 
+  font-size: 16px; 
+  display: block;
+}
+
+.footerIcons {
+        display: inline-block;
+        justify-content: center;
+        float: center;
+        padding: 0 !important;
+        margin: 0 !important;
+}
+
+
+
+
+
+}
+
+
+/* Portfolio start */
+.scrolling-wrapper{
+overflow-x: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .resumeItem  {
+  padding: 0 !important;
+  margin-left: 10px  !important;
+  font-weight: 200 !important;
+  font-size: 14px !important;
+  color: #302d2d !important;
+  text-decoration: none !important;
+  display: block;
+}
+
+.dropdown-menu:hover .resumeItem {
+    color: #302d2d !important;
+    background-color: transparent !important;
+    transition:  0.1s linear 0s;
+}
+:hover.resumeItem {color: #302d2d; }
+:hover.resumeHead .resumeItem {
+    color: #302d2d !important; transition:  0.1s linear 0s;
+}
+
+}
+
+.dropdown-menu:hover .resumeItem {
+    color: transparent !important;
+    background-color: transparent !important;
+    transition:  0.1s linear 0s;
+}
+
+:hover.resumeHead .resumeItem {
+    color: #302d2d !important; transition:  0.1s linear 0s;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  font-weight: 600 !important;
+  color: #302d2d !important;
+  background-color: transparent !important;
+}
+:hover.resumeItem {font-weight: 600 !important; }
+      .resumeItem {
+        list-style-type: none;
+        margin-left: 10px !important;
+      }
+      .resumeList {
+        list-style-type: none !important; padding: 0% !important;
+      }
+
+.resumeItem  {
+  padding: 0 !important;
+  margin-left: 10px  !important;
+  font-weight: 200 !important;
+  font-size: 14px !important;
+  color: transparent !important;
+  text-decoration: none !important;
+  display: block;
+}
+
+.introTxt {
+    text-rendering: optimizeLegibility;
+    text-wrap: balance;
+}
+
+
+
+
+/* Portfolio start */
+.scrolling-wrapper{
+    overflow-x: scroll !important;
+    scrollbar-color: #29bbff !important;
+}
+
+/* Examples */
+.scrollspy-example {
+    height: 200px;
+  }
+  
+  [id="modal"] .bd-example .btn,
+  [id="buttons"] .bd-example .btn,
+  [id="tooltips"] .bd-example .btn,
+  [id="popovers"] .bd-example .btn,
+  [id="dropdowns"] .bd-example .btn-group,
+  [id="dropdowns"] .bd-example .dropdown,
+  [id="dropdowns"] .bd-example .dropup,
+  [id="dropdowns"] .bd-example .dropend,
+  [id="dropdowns"] .bd-example .dropstart {
+    margin: 0 1rem 1rem 0;
+  }
+  
+
+
+.card-body {
+  margin: 0%;
+  padding: 0%;
+  padding-top: 20px;
+}
+.card-text {
+  margin: 0%;
+  padding: 0%;
+}
+
+.card {
+  color: #302d2d;
+  border: #302d2d !important;
+  padding-bottom: 20px;
+}
+.card25 {
+  background-color: aqua;
+  height: 100% !important;
+}
+
+.cardItem {
+  height: 40vh;
+}
+
+.h1Box {
+  height: 100px !important;
+}
+
+
+.footerIcons {
+  display: inline-block !important;
+}
+
+.modal-body {
+  text-align: left !important;
+    font-family: "neue-haas-grotesk-display", sans-serif !important;
+}
+
+.modal-body p {
+  font-weight: 500 !important;
+  font-size: 1em !important;
+  width: 80% !important;
+}
+
+.modal-body h2 {
+  font-weight: 600 !important;
+  font-size: 2em !important;
+}
+
+.modal-title {
+    font-family: "neue-haas-grotesk-display", sans-serif !important;
+}
