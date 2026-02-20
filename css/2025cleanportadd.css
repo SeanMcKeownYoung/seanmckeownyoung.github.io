@@ -155,3 +155,27 @@ overflow-x: auto;
 .portContainer {
     padding-top: 100px;
 }
+
+.uxuiButton {
+    border: 2px solid #000 !important;
+    color: #000 !important;
+    background-color: #ffcb05 !important;
+    border-radius: 0px !important; 
+    width: 60% !important; 
+    display: block !important;
+    margin: 0px 4px !important;    
+    text-align: left !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.uxuiButton:hover {
+    border: 2px solid #000 !important;
+    background-color: #000 !important;
+    color: #ffcb05 !important;
+    border-radius: 0px !important; 
+    width: 60% !important; 
+    display: block !important;
+    margin: 0px 4px !important;    
+    text-align: left !important;
+    transition: all 0.2s ease-in-out;
+}
