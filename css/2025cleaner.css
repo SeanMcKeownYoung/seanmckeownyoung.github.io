@@ -174,7 +174,6 @@ body {
 
 .cover-container {
 width: 100vw;
-height: 100vh;
 }
 
 .navContainer {
@@ -263,14 +262,7 @@ margin: auto;
     margin-left: 30px !important;
 }
 
-/* SOMETHING IS BROKEN IN THIS  	
-.cardBox {
-    position: fixed !important;
-    bottom: 0px !important;
-    width: 100vw !important;
-    z-index: 15 !important;
-    align-content: end !important;
-}*/
+
 
 
 @media only screen and (max-width: 600px) {

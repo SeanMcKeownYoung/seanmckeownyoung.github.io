@@ -1,10 +1,20 @@
 /* ADDITIONAL CSS FOR PORTFOLIO SCROLL*/	
 
 .cardBox {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 180px;
+    position: absolute !important;
+    bottom: 0 !important;
+    padding-bottom: 70px !important;
+    background-color: #ffcb05 !important;
 }
+
+@media only screen and (max-width: 600px) {
+.cardBox {
+    position: absolute !important;
+    bottom: 0 !important;
+    padding-bottom: 180px !important;
+    background-color: #ffcb05 !important;
+}
+  }
 
 .modal-body a {
   border-radius: 0 !important;
@@ -138,7 +148,13 @@ overflow-x: auto;
     width: 40% !important; 
     transition: all 0.2s ease-in-out;
   }
+@media only screen and (max-width: 600px) {
+  .portButtons .portButton {
+font-size: 16px !important;
+}
+}
 
+  
 .portTopper {
   position: relative;
 }
