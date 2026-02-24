@@ -317,6 +317,7 @@ height: 40vh !important;
     position: absolute !important;
     bottom: 0 !important;
     width: 50vw !important;
+    max-width: 50vh !important;
     z-index: -10 !important; 
     animation: fadeIn 5.1s both;
 }
@@ -379,7 +380,7 @@ height: 40vh !important;
 
   100% {
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transform: translate(-50%, 38%);
+    transform: translate(-50%, 35%);
   }
 }
 
