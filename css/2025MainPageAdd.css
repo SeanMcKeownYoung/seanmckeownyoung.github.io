@@ -27,7 +27,7 @@
 .contentContainerMain {
     z-index: 10 !important;
     align-content: center !important;
-    height: 60vh !important;
+    height: 70vh !important;
 }
   }
 
@@ -49,7 +49,13 @@
     font-size: calc(33px + 2vw) !important;
     text-align: center !important;
 }
-
+@media only screen and (max-width: 600px) {
+.main h1 {
+    font-weight: 200 !important;
+    font-size: calc(30px + 2vw) !important;
+    text-align: center !important;
+}
+  }
 .introTxtMain {
     font-family: "neue-haas-grotesk-display", sans-serif !important; 
     font-size: calc(1em + 0.5vw) !important;

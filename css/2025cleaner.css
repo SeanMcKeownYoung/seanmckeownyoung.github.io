@@ -338,32 +338,37 @@ height: 40vh !important;
     opacity: 0;
     transform: translate(-50%, 0%);
   }
-  5% {
+  2% {
     animation-timing-function: ease-out;
     opacity: 1;
     transform: translate(-50%, 0%);
   }
-  15% {
+  7% {
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     opacity: 1;
     transform: translate(-50%, 0%);
   }
-  70% {
+  35% {
     animation-timing-function: ease-out;
     opacity: 1;
-    transform: translate(-50%, 15%);
+    transform: translate(-50%, 18%);
+  }
+  50% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translate(-50%, 35%);
   }
   100% {
     animation-timing-function: ease-out;
-    opacity: 1;
-    transform: translate(-50%, 15%);
+    opacity: 0;
+    transform: translate(-50%, 35%);
   }
 }
 
 @media only screen and (max-width: 600px) {
 .profileImg {
     width: 80vw !important;
-    animation: fadeIn2 5.1s both;
+    animation: fadeIn2 10.1s both;
 }
   }
 
@@ -721,8 +726,8 @@ border-bottom: .25rem solid;
 
 @media only screen and (max-width: 600px) {
   .iconOgraphs {
-    width: 50px !important;
-    height: 50px !important;
+    width: 30px !important;
+    height: 30px !important;
   }
   
   .iconOgraphs:hover {
@@ -800,7 +805,7 @@ footer {
 }
 footer {
     width: 100vw;
-    height: 180px;
+    height: 20vh !important;
 }
 
 
