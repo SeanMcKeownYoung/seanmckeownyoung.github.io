@@ -15,7 +15,6 @@
 .mBttn {
     width: 80% !important;
 }
-
   }
 
 
@@ -24,7 +23,13 @@
     align-content: center !important;
     height: 80vh !important;
 }
-
+@media only screen and (max-width: 600px) {
+.contentContainerMain {
+    z-index: 10 !important;
+    align-content: center !important;
+    height: 60vh !important;
+}
+  }
 
 
 .containerButtons:hover .mBttn {

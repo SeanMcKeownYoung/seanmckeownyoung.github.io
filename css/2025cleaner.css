@@ -310,11 +310,10 @@ margin: auto;
     height: 100vh;
 }
 .profileImg {
-    position: fixed !important;
+    position: absolute !important;
     bottom: 0 !important;
-    left: 50% !important; 
-    height: 50vh !important;
-    width: auto !important;
+    width: 50vw !important;
+    z-index: -10 !important; 
     animation: fadeIn 5.1s both;
 }
 
@@ -322,6 +321,41 @@ margin: auto;
 	animation: fadeIn 5.1s both;
 }
 
+
+@keyframes fadeIn2 {
+  0% {
+    animation-timing-function: ease-out;
+    opacity: 0;
+    transform: translate(-50%, 0%);
+  }
+  5% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translate(-50%, 0%);
+  }
+  15% {
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    opacity: 1;
+    transform: translate(-50%, 0%);
+  }
+  70% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translate(-50%, 15%);
+  }
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translate(-50%, 15%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.profileImg {
+    width: 80vw !important;
+    animation: fadeIn2 5.1s both;
+}
+  }
 
 @keyframes fadeIn {
   0% {
