@@ -240,6 +240,7 @@ margin: auto;
 }
 .contentBox {
     width: 700px;
+
     margin: auto;
 }
 .contentLeftPad {
@@ -284,7 +285,8 @@ height: 40vh !important;
 
     .contentBox {
         width: 100vw;
-        height: 400px !important;
+        min-height: 400px !important;
+        position: absolute !important;
         margin: auto;
     }
     .contentLeftPad {
@@ -728,10 +730,10 @@ border-bottom: .25rem solid;
 /* FOOTER */	
 
 footer {
-    width: 100vw;
-    height: 70px;
+    width: 100% !important;
+    height: 70px !important;
     align-content: center;
-    background-color: #fff;
+    background-color: #fff !important;
     position: fixed !important;
     bottom: 0px !important;
 }

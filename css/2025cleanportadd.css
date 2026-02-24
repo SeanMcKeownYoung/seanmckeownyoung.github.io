@@ -11,7 +11,7 @@
 .cardBox {
     position: absolute !important;
     bottom: 0 !important;
-    padding-bottom: 180px !important;
+    padding-bottom: 0px !important;
     background-color: #ffcb05 !important;
 }
   }
@@ -92,7 +92,6 @@ overflow-x: auto;
 
 
   .portGrp {
-    width: 40vh; 
     height: 40vh; 
     position: relative;
   }
@@ -216,4 +215,8 @@ font-size: 16px !important;
     margin: 0px 4px !important;    
     text-align: center !important;
     transition: all 0.2s ease-in-out;
+}
+
+.portScrollBox {
+  margin-bottom: 70px !important;
 }
