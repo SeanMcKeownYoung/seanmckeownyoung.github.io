@@ -755,6 +755,7 @@ footer {
     width: 700px;
     color: #302d2d !important;
     fill: #302d2d !important;
+        background-color: #fff !important;
 }
 
 .footerHead {
@@ -801,11 +802,13 @@ footer {
 
 .footerInside {
     width: 100vw !important;
+        background-color: #fff !important;
 
 }
 footer {
     width: 100vw;
     height: 20vh !important;
+    background-color: #fff !important;
 }
 
 
