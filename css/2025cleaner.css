@@ -253,7 +253,12 @@ margin: auto;
     padding-top: 100px;
     background-color: #ffcb05;
 }
+.contentContainerClip2 {
+    width: 100vw !important;
 
+    padding-top: 100px;
+    background-color: #ffcb05;
+}
 .listPad {
     margin-left: 30px !important;
 }
@@ -277,15 +282,11 @@ margin: auto;
     background-color: #ffcb05;
 }
 
-/* SOMETHING IS BROKEN IN THIS 	
-.cardBox {
-    position: fixed !important;
-    bottom: 0px !important;
+.contentContainerClip2 {
     width: 100vw !important;
-    z-index: 15 !important;
-    align-content: end !important;
-    padding-bottom: 110px !important;
-}*/ 
+    padding-top: 100px;
+    background-color: #ffcb05;
+}
 
 
     .contentBox {
