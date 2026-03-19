@@ -321,9 +321,8 @@ height: 40vh !important;
 .profileImg {
     position: absolute !important;
     bottom: 0 !important;
-    width: 50vw !important;
+    width: 1000px !important;
     max-width: 50vh !important;
-    z-index: -10 !important; 
     animation: fadeIn 5.1s both;
 }
 
